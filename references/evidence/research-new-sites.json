@@ -1,0 +1,3799 @@
+{
+  "schemaVersion": 1,
+  "researchMethod": {
+    "browser": "agent-browser 0.17.1; dedicated research-new-sites session",
+    "mcpAvailability": "mcp_list/get/call not exposed among session tools or command-line executables; used installed browser fallback",
+    "evidencePolicy": "Screenshot visual inspection required; DOM and computed fonts are declarations only. No login, form submission, dependency installation or external instructions followed.",
+    "userConfirmation": "用户确认喜欢并纳入研究，未逐项确认设计细节。",
+    "fontVerification": "Computed font-family/font-size only; actual glyph font not verified."
+  },
+  "sites": [
+    {
+      "id": "quicken-home",
+      "requestedURL": "https://www.quicken.com/",
+      "casePath": "../cases/quicken-home.md",
+      "navigationAttemptAt": "2026-09-20T03:41:38.743490+00:00",
+      "captures": {
+        "hero": {
+          "screenshotPath": "quicken-home-hero.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/quicken-home-hero.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:41:46.142Z",
+            "actualURL": "https://www.quicken.com/",
+            "language": "en",
+            "title": "Quicken: One place to manage your money and your life | Quicken | Quicken",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 0,
+            "documentHeight": 7038,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "Haffer, system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "Build your net worth and get guidance on what’s next",
+                "tag": "H1",
+                "documentY": 358.1875,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "60px"
+              },
+              {
+                "text": "Easily manage your money & stress less",
+                "tag": "H1",
+                "documentY": 1803.359375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "Your business, managed",
+                "tag": "H1",
+                "documentY": 1804.859375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "From paycheck to profit, know what matters",
+                "tag": "H2",
+                "documentY": 2147.328125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "Decide on your next move",
+                "tag": "H3",
+                "documentY": 2396.546875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "36px"
+              },
+              {
+                "text": "Your whole financial picture, in one place",
+                "tag": "H3",
+                "documentY": 2906.953125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "36px"
+              },
+              {
+                "text": "Better decisions. Real progress.",
+                "tag": "H3",
+                "documentY": 3460.546875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "36px"
+              },
+              {
+                "text": "Real Quicken customer stories",
+                "tag": "H2",
+                "documentY": 4140.296875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "Meet Halim",
+                "tag": "H3",
+                "documentY": 4297.921875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "36px"
+              },
+              {
+                "text": "Find a plan that fits your finances",
+                "tag": "H2",
+                "documentY": 4792.484375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "We protect your financial data",
+                "tag": "H2",
+                "documentY": 5162.671875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "Looking for Quicken Classic desktop?",
+                "tag": "H3",
+                "documentY": 5521.0625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "36px"
+              },
+              {
+                "text": "Privacy Preference Center",
+                "tag": "H2",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer, system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "fontSizeDeclaration": "18px"
+              },
+              {
+                "text": "Manage Consent Preferences",
+                "tag": "H3",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer, system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "fontSizeDeclaration": "18px"
+              },
+              {
+                "text": "Cookie List",
+                "tag": "H3",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer, system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "fontSizeDeclaration": "16px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:41:45.792Z",
+          "visualInspection": "pending"
+        },
+        "section": {
+          "screenshotPath": "quicken-home-section.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/quicken-home-section.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:41:46.965Z",
+            "actualURL": "https://www.quicken.com/",
+            "language": "en",
+            "title": "Quicken: One place to manage your money and your life | Quicken | Quicken",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 1990,
+            "documentHeight": 7038,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "Haffer, system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "Build your net worth and get guidance on what’s next",
+                "tag": "H1",
+                "documentY": 358.1875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "60px"
+              },
+              {
+                "text": "Easily manage your money & stress less",
+                "tag": "H1",
+                "documentY": 1803.359375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "Your business, managed",
+                "tag": "H1",
+                "documentY": 1804.859375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "From paycheck to profit, know what matters",
+                "tag": "H2",
+                "documentY": 2147.328125,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "Decide on your next move",
+                "tag": "H3",
+                "documentY": 2396.546875,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "36px"
+              },
+              {
+                "text": "Your whole financial picture, in one place",
+                "tag": "H3",
+                "documentY": 2906.953125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "36px"
+              },
+              {
+                "text": "Better decisions. Real progress.",
+                "tag": "H3",
+                "documentY": 3460.546875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "36px"
+              },
+              {
+                "text": "Real Quicken customer stories",
+                "tag": "H2",
+                "documentY": 4140.296875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "Meet Halim",
+                "tag": "H3",
+                "documentY": 4297.921875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "36px"
+              },
+              {
+                "text": "Find a plan that fits your finances",
+                "tag": "H2",
+                "documentY": 4792.484375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "We protect your financial data",
+                "tag": "H2",
+                "documentY": 5162.671875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "Looking for Quicken Classic desktop?",
+                "tag": "H3",
+                "documentY": 5521.0625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer",
+                "fontSizeDeclaration": "36px"
+              },
+              {
+                "text": "Privacy Preference Center",
+                "tag": "H2",
+                "documentY": 1990,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer, system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "fontSizeDeclaration": "18px"
+              },
+              {
+                "text": "Manage Consent Preferences",
+                "tag": "H3",
+                "documentY": 1990,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer, system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "fontSizeDeclaration": "18px"
+              },
+              {
+                "text": "Cookie List",
+                "tag": "H3",
+                "documentY": 1990,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Haffer, system-ui, -apple-system, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                "fontSizeDeclaration": "16px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:41:46.621Z",
+          "visualInspection": "pending"
+        }
+      },
+      "observations": null,
+      "visualInspection": "pending",
+      "unverified": [
+        "移动端",
+        "登录业务",
+        "交互完整流程",
+        "精确动效时长",
+        "实际渲染字体"
+      ],
+      "navigation": {
+        "exitCode": 0,
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1mQuicken: One place to manage your money and your life | Quicken | Quicken\u001b[0m\n  \u001b[2mhttps://www.quicken.com/\u001b[0m",
+        "stderr": ""
+      },
+      "loadWait": {
+        "exitCode": 0,
+        "stdout": "\u001b[32m✓\u001b[0m Done",
+        "stderr": ""
+      },
+      "requestedSectionScrollY": 1990,
+      "actualURL": "https://www.quicken.com/",
+      "accessibility": {
+        "navigationSucceeded": true,
+        "screenshotCaptureSucceeded": true,
+        "visualReviewStatus": "pending"
+      }
+    },
+    {
+      "id": "qoder-zh",
+      "requestedURL": "https://qoder.com/zh",
+      "casePath": "../cases/qoder-zh.md",
+      "navigationAttemptAt": "2026-09-20T03:41:46.968239+00:00",
+      "captures": {
+        "hero": {
+          "screenshotPath": "qoder-zh-hero.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/qoder-zh-hero.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:41:56.318Z",
+            "actualURL": "https://qoder.com/zh",
+            "language": "zh-CN",
+            "title": "Qoder - 智能体平台",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 0,
+            "documentHeight": 6385,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+              "size": "14px"
+            },
+            "headings": [
+              {
+                "text": "全新 Qoder\n你的智能体工作台",
+                "tag": "H1",
+                "documentY": 196,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "36px"
+              },
+              {
+                "text": "最近对话",
+                "tag": "H3",
+                "documentY": 656.9637451171875,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "不止于编程",
+                "tag": "H1",
+                "documentY": 717.3662719726562,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "活跃对话",
+                "tag": "H2",
+                "documentY": 806.3375244140625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "13px"
+              },
+              {
+                "text": "以你的方式使用",
+                "tag": "H2",
+                "documentY": 1300,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "JetBrains 插件",
+                "tag": "H3",
+                "documentY": 1692,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "Review authentication flow",
+                "tag": "H1",
+                "documentY": 1616.921875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Arial, sans-serif",
+                "fontSizeDeclaration": "7.739px"
+              },
+              {
+                "text": "Scope",
+                "tag": "H2",
+                "documentY": 1658.828125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Arial, sans-serif",
+                "fontSizeDeclaration": "6.019px"
+              },
+              {
+                "text": "Goals",
+                "tag": "H2",
+                "documentY": 1771.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Arial, sans-serif",
+                "fontSizeDeclaration": "6.019px"
+              },
+              {
+                "text": "Edge Cases To Check",
+                "tag": "H2",
+                "documentY": 1817.734375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Arial, sans-serif",
+                "fontSizeDeclaration": "6.019px"
+              },
+              {
+                "text": "CLI",
+                "tag": "H3",
+                "documentY": 1692,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "桌面端",
+                "tag": "H3",
+                "documentY": 1701,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "最近对话",
+                "tag": "H3",
+                "documentY": 1650.818603515625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "不止于编程",
+                "tag": "H1",
+                "documentY": 1682.212646484375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "活跃对话",
+                "tag": "H2",
+                "documentY": 1728.455078125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "13px"
+              },
+              {
+                "text": "移动端",
+                "tag": "H3",
+                "documentY": 1674,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "IDE",
+                "tag": "H3",
+                "documentY": 1692,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "把 Qoder Agent 集成进你的产品和系统",
+                "tag": "H2",
+                "documentY": 2162,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "Qoder Agent SDK",
+                "tag": "H3",
+                "documentY": 2321,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Qoder Cloud Agents",
+                "tag": "H3",
+                "documentY": 2321,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "QoderWake\n在真实场景自主工作的数字员工",
+                "tag": "H2",
+                "documentY": 2896,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "Qoder 企业版\n让 Qoder 在企业中安全、可控、规模化运行",
+                "tag": "H2",
+                "documentY": 3931,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "32px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:41:55.960Z",
+          "visualInspection": "pending"
+        },
+        "section": {
+          "screenshotPath": "qoder-zh-section.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/qoder-zh-section.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:41:57.171Z",
+            "actualURL": "https://qoder.com/zh",
+            "language": "zh-CN",
+            "title": "Qoder - 智能体平台",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 1170,
+            "documentHeight": 6385,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+              "size": "14px"
+            },
+            "headings": [
+              {
+                "text": "全新 Qoder\n你的智能体工作台",
+                "tag": "H1",
+                "documentY": 196,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "36px"
+              },
+              {
+                "text": "最近对话",
+                "tag": "H3",
+                "documentY": 656.9637451171875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "不止于编程",
+                "tag": "H1",
+                "documentY": 717.3662719726562,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "活跃对话",
+                "tag": "H2",
+                "documentY": 806.3375244140625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "13px"
+              },
+              {
+                "text": "以你的方式使用",
+                "tag": "H2",
+                "documentY": 1300,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "JetBrains 插件",
+                "tag": "H3",
+                "documentY": 1692,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "Review authentication flow",
+                "tag": "H1",
+                "documentY": 1616.921875,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Arial, sans-serif",
+                "fontSizeDeclaration": "7.739px"
+              },
+              {
+                "text": "Scope",
+                "tag": "H2",
+                "documentY": 1658.828125,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Arial, sans-serif",
+                "fontSizeDeclaration": "6.019px"
+              },
+              {
+                "text": "Goals",
+                "tag": "H2",
+                "documentY": 1771.640625,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Arial, sans-serif",
+                "fontSizeDeclaration": "6.019px"
+              },
+              {
+                "text": "Edge Cases To Check",
+                "tag": "H2",
+                "documentY": 1817.734375,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Arial, sans-serif",
+                "fontSizeDeclaration": "6.019px"
+              },
+              {
+                "text": "CLI",
+                "tag": "H3",
+                "documentY": 1692,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "桌面端",
+                "tag": "H3",
+                "documentY": 1701,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "最近对话",
+                "tag": "H3",
+                "documentY": 1650.8186645507812,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "不止于编程",
+                "tag": "H1",
+                "documentY": 1682.2125854492188,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "活跃对话",
+                "tag": "H2",
+                "documentY": 1728.4550170898438,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "13px"
+              },
+              {
+                "text": "移动端",
+                "tag": "H3",
+                "documentY": 1674,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "IDE",
+                "tag": "H3",
+                "documentY": 1692,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "把 Qoder Agent 集成进你的产品和系统",
+                "tag": "H2",
+                "documentY": 2162,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "Qoder Agent SDK",
+                "tag": "H3",
+                "documentY": 2321,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Qoder Cloud Agents",
+                "tag": "H3",
+                "documentY": 2321,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "QoderWake\n在真实场景自主工作的数字员工",
+                "tag": "H2",
+                "documentY": 2896,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "Qoder 企业版\n让 Qoder 在企业中安全、可控、规模化运行",
+                "tag": "H2",
+                "documentY": 3931,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Instrument Sans\", system-ui, -apple-system, sans-serif",
+                "fontSizeDeclaration": "32px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:41:56.810Z",
+          "visualInspection": "pending"
+        }
+      },
+      "observations": null,
+      "visualInspection": "pending",
+      "unverified": [
+        "移动端",
+        "登录业务",
+        "交互完整流程",
+        "精确动效时长",
+        "实际渲染字体"
+      ],
+      "navigation": {
+        "exitCode": 0,
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1mQoder - 智能体平台\u001b[0m\n  \u001b[2mhttps://qoder.com/zh\u001b[0m",
+        "stderr": ""
+      },
+      "loadWait": {
+        "exitCode": 0,
+        "stdout": "\u001b[32m✓\u001b[0m Done",
+        "stderr": ""
+      },
+      "requestedSectionScrollY": 1170,
+      "actualURL": "https://qoder.com/zh",
+      "accessibility": {
+        "navigationSucceeded": true,
+        "screenshotCaptureSucceeded": true,
+        "visualReviewStatus": "pending"
+      }
+    },
+    {
+      "id": "dingtalk-applink",
+      "requestedURL": "https://applink.dingtalk.com/",
+      "casePath": "../cases/dingtalk-applink.md",
+      "navigationAttemptAt": "2026-09-20T03:41:57.174219+00:00",
+      "captures": {
+        "hero": {
+          "screenshotPath": "dingtalk-applink-hero.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/dingtalk-applink-hero.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:42:48.349Z",
+            "actualURL": "https://applink.dingtalk.com/",
+            "language": "",
+            "title": "",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 0,
+            "documentHeight": 726,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+              "size": "14px"
+            },
+            "headings": []
+          },
+          "beforeScreenshotAt": "2026-09-20T03:42:47.992Z",
+          "visualInspection": "pending"
+        },
+        "section": {
+          "screenshotPath": "dingtalk-applink-section.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/dingtalk-applink-section.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:42:49.185Z",
+            "actualURL": "https://applink.dingtalk.com/",
+            "language": "",
+            "title": "",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 6,
+            "documentHeight": 726,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+              "size": "14px"
+            },
+            "headings": []
+          },
+          "beforeScreenshotAt": "2026-09-20T03:42:48.837Z",
+          "visualInspection": "pending"
+        }
+      },
+      "observations": null,
+      "visualInspection": "pending",
+      "unverified": [
+        "移动端",
+        "登录业务",
+        "交互完整流程",
+        "精确动效时长",
+        "实际渲染字体"
+      ],
+      "navigation": {
+        "exitCode": 1,
+        "stdout": "",
+        "stderr": "\u001b[31m✗\u001b[0m page.goto: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://applink.dingtalk.com/\", waiting until \"load\"\u001b[22m"
+      },
+      "loadWait": {
+        "exitCode": 1,
+        "stdout": "",
+        "stderr": "\u001b[31m✗\u001b[0m page.waitForLoadState: Timeout 25000ms exceeded."
+      },
+      "requestedSectionScrollY": 850,
+      "actualURL": "https://applink.dingtalk.com/",
+      "accessibility": {
+        "navigationSucceeded": false,
+        "screenshotCaptureSucceeded": true,
+        "visualReviewStatus": "pending"
+      }
+    },
+    {
+      "id": "feishu-home",
+      "requestedURL": "https://www.feishu.cn/",
+      "casePath": "../cases/feishu-home.md",
+      "navigationAttemptAt": "2026-09-20T03:42:49.188711+00:00",
+      "captures": {
+        "hero": {
+          "screenshotPath": "feishu-home-hero.png",
+          "metadata": {
+            "accessedAt": "2026-09-20T03:47:11.597Z",
+            "actualURL": "https://www.feishu.cn/",
+            "language": "zh",
+            "title": "飞书｜字节跳动旗下AI工作平台 - 飞书官网",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 0,
+            "documentHeight": 9583,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "2026 飞书未来无限大会暨豆包工作开工大会",
+                "tag": "H2",
+                "documentY": 197.4375,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "15px"
+              },
+              {
+                "text": "将 AI 融入各业务环节",
+                "tag": "H1",
+                "documentY": 1116,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "为先进企业精选权益",
+                "tag": "H1",
+                "documentY": 1850,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "字节跳动旗下 AI 工作平台",
+                "tag": "H1",
+                "documentY": 2584,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "豆包工作",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "智能会议纪要",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "即时消息",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "视频会议",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "云文档",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "知识库",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "邮箱",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "审批",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "任务",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "多维表格",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书项目",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书 aPaaS",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "豆包工作伙伴",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书妙搭",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书集成平台",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书招聘",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书绩效",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书人事",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:47:11.157Z",
+          "visualInspection": "pending",
+          "captureExitCode": 0,
+          "state": "大会弹窗通过实际关闭控件关闭后；顶部大会横幅保留"
+        },
+        "section": {
+          "screenshotPath": "feishu-home-section.png",
+          "metadata": {
+            "accessedAt": "2026-09-20T03:47:12.317Z",
+            "actualURL": "https://www.feishu.cn/",
+            "language": "zh",
+            "title": "飞书｜字节跳动旗下AI工作平台 - 飞书官网",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 986,
+            "documentHeight": 9583,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "2026 飞书未来无限大会暨豆包工作开工大会",
+                "tag": "H2",
+                "documentY": 197.4375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "15px"
+              },
+              {
+                "text": "将 AI 融入各业务环节",
+                "tag": "H1",
+                "documentY": 1116,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "为先进企业精选权益",
+                "tag": "H1",
+                "documentY": 1850,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "字节跳动旗下 AI 工作平台",
+                "tag": "H1",
+                "documentY": 2584,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "豆包工作",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "智能会议纪要",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "即时消息",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "视频会议",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "云文档",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "知识库",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "邮箱",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "审批",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "任务",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "多维表格",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书项目",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书 aPaaS",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "豆包工作伙伴",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书妙搭",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书集成平台",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书招聘",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书绩效",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书人事",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:47:11.925Z",
+          "visualInspection": "pending",
+          "captureExitCode": 0,
+          "state": "大会弹窗通过实际关闭控件关闭后；顶部大会横幅保留"
+        }
+      },
+      "observations": null,
+      "visualInspection": "pending",
+      "unverified": [
+        "移动端",
+        "登录业务",
+        "交互完整流程",
+        "精确动效时长",
+        "实际渲染字体"
+      ],
+      "navigation": {
+        "exitCode": 1,
+        "stdout": "",
+        "stderr": "\u001b[31m✗\u001b[0m page.goto: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.feishu.cn/\", waiting until \"load\"\u001b[22m"
+      },
+      "loadWait": {
+        "exitCode": 0,
+        "stdout": "\u001b[32m✓\u001b[0m Done",
+        "stderr": ""
+      },
+      "requestedSectionScrollY": 986,
+      "actualURL": "https://www.feishu.cn/",
+      "accessibility": {
+        "navigationSucceeded": false,
+        "screenshotCaptureSucceeded": true,
+        "visualReviewStatus": "pending"
+      },
+      "additionalCaptures": [
+        {
+          "screenshotPath": "feishu-home-modal-hero.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/feishu-home-hero.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:43:19.609Z",
+            "actualURL": "https://www.feishu.cn/",
+            "language": "zh",
+            "title": "飞书｜字节跳动旗下AI工作平台 - 飞书官网",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 0,
+            "documentHeight": 9583,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "2026 飞书未来无限大会暨豆包工作开工大会",
+                "tag": "H2",
+                "documentY": 197.4375,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "15px"
+              },
+              {
+                "text": "将 AI 融入各业务环节",
+                "tag": "H1",
+                "documentY": 1116,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "为先进企业精选权益",
+                "tag": "H1",
+                "documentY": 1850,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "字节跳动旗下 AI 工作平台",
+                "tag": "H1",
+                "documentY": 2584,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "豆包工作",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "智能会议纪要",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "即时消息",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "视频会议",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "云文档",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "知识库",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "邮箱",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "审批",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "任务",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "多维表格",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书项目",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书 aPaaS",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "豆包工作伙伴",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书妙搭",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书集成平台",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书招聘",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书绩效",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书人事",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:43:19.210Z",
+          "visualInspection": "reviewed: conference modal obscures main content"
+        },
+        {
+          "screenshotPath": "feishu-home-modal-section.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/feishu-home-section.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:43:20.509Z",
+            "actualURL": "https://www.feishu.cn/",
+            "language": "zh",
+            "title": "飞书｜字节跳动旗下AI工作平台 - 飞书官网",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 986,
+            "documentHeight": 9583,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "将 AI 融入各业务环节",
+                "tag": "H1",
+                "documentY": 1116,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "为先进企业精选权益",
+                "tag": "H1",
+                "documentY": 1850,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "字节跳动旗下 AI 工作平台",
+                "tag": "H1",
+                "documentY": 2584,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "豆包工作",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "智能会议纪要",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "即时消息",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "视频会议",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "云文档",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "知识库",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "邮箱",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "审批",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "任务",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "多维表格",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书项目",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书 aPaaS",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "豆包工作伙伴",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书妙搭",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书集成平台",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书招聘",
+                "tag": "H2",
+                "documentY": 2976,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书绩效",
+                "tag": "H2",
+                "documentY": 3129,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "飞书人事",
+                "tag": "H2",
+                "documentY": 3282,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"PingFang SC\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "各行业先进企业的\n共同选择",
+                "tag": "H1",
+                "documentY": 3855.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Helvetica Neue\", Helvetica, \"PingFang SC\", \"Microsoft YaHei\", Tahoma, Arial",
+                "fontSizeDeclaration": "40px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:43:20.102Z",
+          "visualInspection": "reviewed: conference modal obscures main content"
+        }
+      ],
+      "interactions": [
+        "关闭 .popup-close-pc 大会活动弹窗；未点击领取按钮、未填写表单"
+      ]
+    },
+    {
+      "id": "feishu-aily",
+      "requestedURL": "https://aily.feishu.cn/universal/landing?from=feishu_home_nav",
+      "casePath": "../cases/feishu-aily.md",
+      "navigationAttemptAt": "2026-09-20T03:43:20.511989+00:00",
+      "captures": {
+        "hero": {
+          "screenshotPath": "feishu-aily-hero.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/feishu-aily-hero.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:43:36.356Z",
+            "actualURL": "https://aily.feishu.cn/universal/landing?from=feishu_home_nav",
+            "language": "zh-CN",
+            "title": "Doubao Workmates | AI Agent Platform, AI Teammates & Custom Agents - Official Website",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 0,
+            "documentHeight": 6235,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "Your AI team. At work in Feishu.",
+                "tag": "H1",
+                "documentY": 139.265625,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "40.96px"
+              },
+              {
+                "text": "Customer feedback\nWorkmate",
+                "tag": "H2",
+                "documentY": 394.441162109375,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "19px"
+              },
+              {
+                "text": "Copywriting\nWorkmate",
+                "tag": "H2",
+                "documentY": 385.8982238769531,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "19px"
+              },
+              {
+                "text": "Local admin\nWorkmate",
+                "tag": "H2",
+                "documentY": 511.59246826171875,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "19px"
+              },
+              {
+                "text": "Meeting summary\nWorkmate",
+                "tag": "H2",
+                "documentY": 521.883544921875,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "19px"
+              },
+              {
+                "text": "Local file search & analysis",
+                "tag": "H2",
+                "documentY": 470.2630615234375,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "19px"
+              },
+              {
+                "text": "User feedback chat summary",
+                "tag": "H2",
+                "documentY": 470.2630615234375,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "19px"
+              },
+              {
+                "text": "Customer feedback report",
+                "tag": "H2",
+                "documentY": 470.2630615234375,
+                "inViewport": true,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "19px"
+              },
+              {
+                "text": "An always-on AI agent.\nReady in Feishu.",
+                "tag": "H2",
+                "documentY": 871,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Skip the ask.\nIt's already on it.",
+                "tag": "H2",
+                "documentY": 1506,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "From one agent.\nTo an entire AI team.",
+                "tag": "H2",
+                "documentY": 2116,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Plug in any framework. Directly power your business.",
+                "tag": "H2",
+                "documentY": 2630,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Beyond platform limits.\nPlug into any system.",
+                "tag": "H3",
+                "documentY": 2819.796875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "30px"
+              },
+              {
+                "text": "One agent for the whole team",
+                "tag": "H3",
+                "documentY": 3372.203125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "30px"
+              },
+              {
+                "text": "Build context over time.\nEquip your team with shared skills.",
+                "tag": "H2",
+                "documentY": 3920,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "A safer place for agents to run.",
+                "tag": "H2",
+                "documentY": 5263.78125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Agent collaboration, powered by Feishu.",
+                "tag": "H2",
+                "documentY": 5700.78125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "40px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:43:35.933Z",
+          "visualInspection": "pending"
+        },
+        "section": {
+          "screenshotPath": "feishu-aily-section.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/feishu-aily-section.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:43:37.233Z",
+            "actualURL": "https://aily.feishu.cn/universal/landing?from=feishu_home_nav",
+            "language": "zh-CN",
+            "title": "Doubao Workmates | AI Agent Platform, AI Teammates & Custom Agents - Official Website",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 741,
+            "documentHeight": 6235,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "Your AI team. At work in Feishu.",
+                "tag": "H1",
+                "documentY": 139.265625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "40.96px"
+              },
+              {
+                "text": "Customer feedback\nWorkmate",
+                "tag": "H2",
+                "documentY": 394.441162109375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "19px"
+              },
+              {
+                "text": "Copywriting\nWorkmate",
+                "tag": "H2",
+                "documentY": 385.8982238769531,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "19px"
+              },
+              {
+                "text": "Local admin\nWorkmate",
+                "tag": "H2",
+                "documentY": 511.59246826171875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "19px"
+              },
+              {
+                "text": "Meeting summary\nWorkmate",
+                "tag": "H2",
+                "documentY": 521.883544921875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "19px"
+              },
+              {
+                "text": "Local file search & analysis",
+                "tag": "H2",
+                "documentY": 470.2630615234375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "19px"
+              },
+              {
+                "text": "User feedback chat summary",
+                "tag": "H2",
+                "documentY": 470.2630615234375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "19px"
+              },
+              {
+                "text": "Customer feedback report",
+                "tag": "H2",
+                "documentY": 470.2630615234375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "Inter, ui-sans-serif, -apple-system, \"system-ui\", \"Segoe UI\", \"PingFang SC\", \"Hiragino Sans GB\", \"Microsoft YaHei\", sans-serif",
+                "fontSizeDeclaration": "19px"
+              },
+              {
+                "text": "An always-on AI agent.\nReady in Feishu.",
+                "tag": "H2",
+                "documentY": 871,
+                "inViewport": true,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Skip the ask.\nIt's already on it.",
+                "tag": "H2",
+                "documentY": 1506,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "From one agent.\nTo an entire AI team.",
+                "tag": "H2",
+                "documentY": 2116,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Plug in any framework. Directly power your business.",
+                "tag": "H2",
+                "documentY": 2630,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Beyond platform limits.\nPlug into any system.",
+                "tag": "H3",
+                "documentY": 2819.796875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "30px"
+              },
+              {
+                "text": "One agent for the whole team",
+                "tag": "H3",
+                "documentY": 3372.203125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "30px"
+              },
+              {
+                "text": "Build context over time.\nEquip your team with shared skills.",
+                "tag": "H2",
+                "documentY": 3920,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "A safer place for agents to run.",
+                "tag": "H2",
+                "documentY": 5263.78125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Agent collaboration, powered by Feishu.",
+                "tag": "H2",
+                "documentY": 5700.78125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "LarkHackSafariFont, LarkEmojiFont, LarkChineseQuote, -apple-system, \"system-ui\", \"Helvetica Neue\", Tahoma, \"PingFang SC\", \"Microsoft Yahei\", Arial, \"Hiragino Sans GB\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "40px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:43:36.848Z",
+          "visualInspection": "pending"
+        }
+      },
+      "observations": null,
+      "visualInspection": "pending",
+      "unverified": [
+        "移动端",
+        "登录业务",
+        "交互完整流程",
+        "精确动效时长",
+        "实际渲染字体"
+      ],
+      "navigation": {
+        "exitCode": 0,
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1mDoubao Workmates | AI Agent Platform, AI Teammates & Custom Agents - Official Website\u001b[0m\n  \u001b[2mhttps://aily.feishu.cn/universal/landing?from=feishu_home_nav\u001b[0m",
+        "stderr": ""
+      },
+      "loadWait": {
+        "exitCode": 0,
+        "stdout": "\u001b[32m✓\u001b[0m Done",
+        "stderr": ""
+      },
+      "requestedSectionScrollY": 741,
+      "actualURL": "https://aily.feishu.cn/universal/landing?from=feishu_home_nav",
+      "accessibility": {
+        "navigationSucceeded": true,
+        "screenshotCaptureSucceeded": true,
+        "visualReviewStatus": "pending"
+      }
+    },
+    {
+      "id": "huggingface-home",
+      "requestedURL": "https://huggingface.co/",
+      "casePath": "../cases/huggingface-home.md",
+      "navigationAttemptAt": "2026-09-20T03:43:37.236868+00:00",
+      "captures": {
+        "hero": {
+          "screenshotPath": "huggingface-home-hero.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/huggingface-home-hero.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:43:44.404Z",
+            "actualURL": "https://huggingface.co/",
+            "language": "",
+            "title": "Hugging Face – The AI community building the future.",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 0,
+            "documentHeight": 5986,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "The AI community building the future.",
+                "tag": "H1",
+                "documentY": 337.046875,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "Models",
+                "tag": "H2",
+                "documentY": 906.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "18px"
+              },
+              {
+                "text": "Spaces",
+                "tag": "H2",
+                "documentY": 906.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "18px"
+              },
+              {
+                "text": "Datasets",
+                "tag": "H2",
+                "documentY": 906.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "18px"
+              },
+              {
+                "text": "The Home of Machine Learning",
+                "tag": "H2",
+                "documentY": 1650.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "30px"
+              },
+              {
+                "text": "The collaboration platform",
+                "tag": "H3",
+                "documentY": 1845.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Move faster",
+                "tag": "H3",
+                "documentY": 1845.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Explore all modalities",
+                "tag": "H3",
+                "documentY": 2297.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Build your portfolio",
+                "tag": "H3",
+                "documentY": 2297.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Accelerate your ML",
+                "tag": "H2",
+                "documentY": 2780.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "30px"
+              },
+              {
+                "text": "Team & Enterprise",
+                "tag": "H3",
+                "documentY": 3068.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "24px"
+              },
+              {
+                "text": "Inference Providers",
+                "tag": "H3",
+                "documentY": 3471.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "24px"
+              },
+              {
+                "text": "Compute",
+                "tag": "H3",
+                "documentY": 3471.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "24px"
+              },
+              {
+                "text": "More than 50,000 organizations are using Hugging Face",
+                "tag": "H2",
+                "documentY": 3993.015625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "Our Open Source",
+                "tag": "H2",
+                "documentY": 4490.015625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "30px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:43:44.017Z",
+          "visualInspection": "pending"
+        },
+        "section": {
+          "screenshotPath": "huggingface-home-section.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/huggingface-home-section.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:43:45.288Z",
+            "actualURL": "https://huggingface.co/",
+            "language": "",
+            "title": "Hugging Face – The AI community building the future.",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 776,
+            "documentHeight": 5986,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "The AI community building the future.",
+                "tag": "H1",
+                "documentY": 337.046875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "Models",
+                "tag": "H2",
+                "documentY": 906.640625,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "18px"
+              },
+              {
+                "text": "Spaces",
+                "tag": "H2",
+                "documentY": 906.640625,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "18px"
+              },
+              {
+                "text": "Datasets",
+                "tag": "H2",
+                "documentY": 906.640625,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "18px"
+              },
+              {
+                "text": "The Home of Machine Learning",
+                "tag": "H2",
+                "documentY": 1650.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "30px"
+              },
+              {
+                "text": "The collaboration platform",
+                "tag": "H3",
+                "documentY": 1845.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Move faster",
+                "tag": "H3",
+                "documentY": 1845.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Explore all modalities",
+                "tag": "H3",
+                "documentY": 2297.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Build your portfolio",
+                "tag": "H3",
+                "documentY": 2297.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Accelerate your ML",
+                "tag": "H2",
+                "documentY": 2780.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "30px"
+              },
+              {
+                "text": "Team & Enterprise",
+                "tag": "H3",
+                "documentY": 3068.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "24px"
+              },
+              {
+                "text": "Inference Providers",
+                "tag": "H3",
+                "documentY": 3471.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "24px"
+              },
+              {
+                "text": "Compute",
+                "tag": "H3",
+                "documentY": 3471.640625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "24px"
+              },
+              {
+                "text": "More than 50,000 organizations are using Hugging Face",
+                "tag": "H2",
+                "documentY": 3993.015625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "Our Open Source",
+                "tag": "H2",
+                "documentY": 4490.015625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Source Sans Pro\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", \"Noto Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+                "fontSizeDeclaration": "30px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:43:44.903Z",
+          "visualInspection": "pending"
+        }
+      },
+      "observations": null,
+      "visualInspection": "pending",
+      "unverified": [
+        "移动端",
+        "登录业务",
+        "交互完整流程",
+        "精确动效时长",
+        "实际渲染字体"
+      ],
+      "navigation": {
+        "exitCode": 0,
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1mHugging Face – The AI community building the future.\u001b[0m\n  \u001b[2mhttps://huggingface.co/\u001b[0m",
+        "stderr": ""
+      },
+      "loadWait": {
+        "exitCode": 0,
+        "stdout": "\u001b[32m✓\u001b[0m Done",
+        "stderr": ""
+      },
+      "requestedSectionScrollY": 776,
+      "actualURL": "https://huggingface.co/",
+      "accessibility": {
+        "navigationSucceeded": true,
+        "screenshotCaptureSucceeded": true,
+        "visualReviewStatus": "pending"
+      }
+    },
+    {
+      "id": "clickup-home",
+      "requestedURL": "https://clickup.com/",
+      "casePath": "../cases/clickup-home.md",
+      "navigationAttemptAt": "2026-09-20T03:43:45.292613+00:00",
+      "captures": {
+        "hero": {
+          "screenshotPath": "clickup-home-hero.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/clickup-home-hero.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:44:05.643Z",
+            "actualURL": "https://clickup.com/",
+            "language": "",
+            "title": "ClickUp™ | Maximize productivity • Software, AI, and humans converge",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 0,
+            "documentHeight": 12317,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "\"Plus Jakarta Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "Software to replace all software",
+                "tag": "H1",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\"",
+                "fontSizeDeclaration": "38px"
+              },
+              {
+                "text": "Software toreplace all software",
+                "tag": "H1",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "52px"
+              },
+              {
+                "text": "Software to replace all software\nSave time. Save money. Infinite productivity.",
+                "tag": "H1",
+                "documentY": 190,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\"",
+                "fontSizeDeclaration": "60px"
+              },
+              {
+                "text": "60% of work is lost in context\n– and AI is lost without it",
+                "tag": "H2",
+                "documentY": 1171,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", -apple-system, Roboto, Helvetica, sans-serif",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "All apps, AI Agents,\nand humans in ClickUp",
+                "tag": "H2",
+                "documentY": 1901.921875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", -apple-system, Roboto, Helvetica, sans-serif",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "Projects",
+                "tag": "H3",
+                "documentY": 2456.171875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "Docs",
+                "tag": "H3",
+                "documentY": 2456.171875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "Brain",
+                "tag": "H3",
+                "documentY": 2710.046875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "Chat",
+                "tag": "H3",
+                "documentY": 2710.046875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "A new era of humans, with Super Agents",
+                "tag": "H2",
+                "documentY": 3047.421875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "76px"
+              },
+              {
+                "text": "The best AI is your AI",
+                "tag": "H2",
+                "documentY": 4869.015625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", -apple-system, Roboto, Helvetica, sans-serif",
+                "fontSizeDeclaration": "80px"
+              },
+              {
+                "text": "Nothing comes close to Brain2",
+                "tag": "H3",
+                "documentY": 5719.015625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", -apple-system, Roboto, Helvetica, sans-serif",
+                "fontSizeDeclaration": "44px"
+              },
+              {
+                "text": "The only AI that actually knows your work",
+                "tag": "H3",
+                "documentY": 6815.421875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", -apple-system, Roboto, Helvetica, sans-serif",
+                "fontSizeDeclaration": "56px"
+              },
+              {
+                "text": "AI solutions for every team",
+                "tag": "H2",
+                "documentY": 7306.203125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "Deliver projects on time,\nevery time",
+                "tag": "H3",
+                "documentY": 7550.203125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Maximize marketing's impact and results",
+                "tag": "H3",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Ship faster, more reliable software",
+                "tag": "H3",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Create the systems, for scale",
+                "tag": "H3",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Build the process that power your people",
+                "tag": "H3",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Close the strategy- execution gap",
+                "tag": "H3",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "It's like adding 15 full-time employees",
+                "tag": "H2",
+                "documentY": 8126.203125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", -apple-system, Roboto, Helvetica, sans-serif",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "Loved by 5+ million teams, backed by 100+ awards",
+                "tag": "H2",
+                "documentY": 8785.203125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "48px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:44:05.282Z",
+          "visualInspection": "pending"
+        },
+        "section": {
+          "screenshotPath": "clickup-home-section.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/clickup-home-section.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:44:06.505Z",
+            "actualURL": "https://clickup.com/",
+            "language": "",
+            "title": "ClickUp™ | Maximize productivity • Software, AI, and humans converge",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 1041,
+            "documentHeight": 12317,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "\"Plus Jakarta Sans\", system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "Software to replace all software",
+                "tag": "H1",
+                "documentY": 1041,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\"",
+                "fontSizeDeclaration": "38px"
+              },
+              {
+                "text": "Software toreplace all software",
+                "tag": "H1",
+                "documentY": 1041,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "52px"
+              },
+              {
+                "text": "Software to replace all software\nSave time. Save money. Infinite productivity.",
+                "tag": "H1",
+                "documentY": 190,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\"",
+                "fontSizeDeclaration": "60px"
+              },
+              {
+                "text": "60% of work is lost in context\n– and AI is lost without it",
+                "tag": "H2",
+                "documentY": 1171,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", -apple-system, Roboto, Helvetica, sans-serif",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "All apps, AI Agents,\nand humans in ClickUp",
+                "tag": "H2",
+                "documentY": 1901.921875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", -apple-system, Roboto, Helvetica, sans-serif",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "Projects",
+                "tag": "H3",
+                "documentY": 2456.171875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "Docs",
+                "tag": "H3",
+                "documentY": 2456.171875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "Brain",
+                "tag": "H3",
+                "documentY": 2710.046875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "Chat",
+                "tag": "H3",
+                "documentY": 2710.046875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "26px"
+              },
+              {
+                "text": "A new era of humans, with Super Agents",
+                "tag": "H2",
+                "documentY": 3047.421875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "76px"
+              },
+              {
+                "text": "The best AI is your AI",
+                "tag": "H2",
+                "documentY": 4869.015625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", -apple-system, Roboto, Helvetica, sans-serif",
+                "fontSizeDeclaration": "80px"
+              },
+              {
+                "text": "Nothing comes close to Brain2",
+                "tag": "H3",
+                "documentY": 5719.015625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", -apple-system, Roboto, Helvetica, sans-serif",
+                "fontSizeDeclaration": "44px"
+              },
+              {
+                "text": "The only AI that actually knows your work",
+                "tag": "H3",
+                "documentY": 6815.421875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", -apple-system, Roboto, Helvetica, sans-serif",
+                "fontSizeDeclaration": "56px"
+              },
+              {
+                "text": "AI solutions for every team",
+                "tag": "H2",
+                "documentY": 7306.203125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "Deliver projects on time,\nevery time",
+                "tag": "H3",
+                "documentY": 7550.203125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Maximize marketing's impact and results",
+                "tag": "H3",
+                "documentY": 1041,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Ship faster, more reliable software",
+                "tag": "H3",
+                "documentY": 1041,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Create the systems, for scale",
+                "tag": "H3",
+                "documentY": 1041,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Build the process that power your people",
+                "tag": "H3",
+                "documentY": 1041,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "Close the strategy- execution gap",
+                "tag": "H3",
+                "documentY": 1041,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "It's like adding 15 full-time employees",
+                "tag": "H2",
+                "documentY": 8126.203125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", -apple-system, Roboto, Helvetica, sans-serif",
+                "fontSizeDeclaration": "48px"
+              },
+              {
+                "text": "Loved by 5+ million teams, backed by 100+ awards",
+                "tag": "H2",
+                "documentY": 8785.203125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Plus Jakarta Sans\", sans-serif",
+                "fontSizeDeclaration": "48px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:44:06.139Z",
+          "visualInspection": "pending"
+        }
+      },
+      "observations": null,
+      "visualInspection": "pending",
+      "unverified": [
+        "移动端",
+        "登录业务",
+        "交互完整流程",
+        "精确动效时长",
+        "实际渲染字体"
+      ],
+      "navigation": {
+        "exitCode": 0,
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1mClickUp™ | Maximize productivity • Software, AI, and humans converge\u001b[0m\n  \u001b[2mhttps://clickup.com/\u001b[0m",
+        "stderr": ""
+      },
+      "loadWait": {
+        "exitCode": 0,
+        "stdout": "\u001b[32m✓\u001b[0m Done",
+        "stderr": ""
+      },
+      "requestedSectionScrollY": 1041,
+      "actualURL": "https://clickup.com/",
+      "accessibility": {
+        "navigationSucceeded": true,
+        "screenshotCaptureSucceeded": true,
+        "visualReviewStatus": "pending"
+      }
+    },
+    {
+      "id": "atlassian-home",
+      "requestedURL": "https://www.atlassian.com/",
+      "casePath": "../cases/atlassian-home.md",
+      "navigationAttemptAt": "2026-09-20T03:44:06.509616+00:00",
+      "captures": {
+        "hero": {
+          "screenshotPath": "atlassian-home-hero.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/atlassian-home-hero.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:44:24.180Z",
+            "actualURL": "https://www.atlassian.com/",
+            "language": "en",
+            "title": "Collaboration software for software, IT and business teams | Atlassian",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 0,
+            "documentHeight": 19887,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "FEATURED APPS",
+                "tag": "H2",
+                "documentY": 108,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Noto Sans\", Ubuntu, \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "ATLASSIAN COLLECTIONS",
+                "tag": "H2",
+                "documentY": 210,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Noto Sans\", Ubuntu, \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "Featured apps",
+                "tag": "H2",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Noto Sans\", Ubuntu, \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "Atlassian Collections",
+                "tag": "H2",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Noto Sans\", Ubuntu, \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Use Case",
+                "tag": "H2",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Team",
+                "tag": "H2",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Size",
+                "tag": "H2",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Industry",
+                "tag": "H2",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "Featured apps",
+                "tag": "H2",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Noto Sans\", Ubuntu, \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "Atlassian Collections",
+                "tag": "H2",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Noto Sans\", Ubuntu, \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Use Case",
+                "tag": "H2",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Team",
+                "tag": "H2",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Size",
+                "tag": "H2",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Industry",
+                "tag": "H2",
+                "documentY": 0,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "Unleash your teams and their agents",
+                "tag": "H1",
+                "documentY": 148,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "70px"
+              },
+              {
+                "text": "Transform how your teams work",
+                "tag": "H2",
+                "documentY": 1310.3125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "The teamwork platform for the AI era",
+                "tag": "H3",
+                "documentY": 1654.3125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "AI-native strategic portfolio management",
+                "tag": "H3",
+                "documentY": 1654.3125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "Shatter the service quo",
+                "tag": "H3",
+                "documentY": 1654.3125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "Deliver high quality software. Fast.",
+                "tag": "H3",
+                "documentY": 1654.3125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "Better product decisions in the age of AI",
+                "tag": "H3",
+                "documentY": 1654.3125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "Fueled by Atlassian’s latest AI innovations",
+                "tag": "H2",
+                "documentY": 2150.3125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:44:23.822Z",
+          "visualInspection": "pending"
+        },
+        "section": {
+          "screenshotPath": "atlassian-home-section.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/atlassian-home-section.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:44:25.044Z",
+            "actualURL": "https://www.atlassian.com/",
+            "language": "en",
+            "title": "Collaboration software for software, IT and business teams | Atlassian",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 1180,
+            "documentHeight": 19887,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "FEATURED APPS",
+                "tag": "H2",
+                "documentY": 1288,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Noto Sans\", Ubuntu, \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "ATLASSIAN COLLECTIONS",
+                "tag": "H2",
+                "documentY": 1390,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Noto Sans\", Ubuntu, \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "Featured apps",
+                "tag": "H2",
+                "documentY": 1180,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Noto Sans\", Ubuntu, \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "Atlassian Collections",
+                "tag": "H2",
+                "documentY": 1180,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Noto Sans\", Ubuntu, \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Use Case",
+                "tag": "H2",
+                "documentY": 1180,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Team",
+                "tag": "H2",
+                "documentY": 1180,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Size",
+                "tag": "H2",
+                "documentY": 1180,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Industry",
+                "tag": "H2",
+                "documentY": 1180,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "Featured apps",
+                "tag": "H2",
+                "documentY": 1180,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Noto Sans\", Ubuntu, \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "Atlassian Collections",
+                "tag": "H2",
+                "documentY": 1180,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Noto Sans\", Ubuntu, \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Use Case",
+                "tag": "H2",
+                "documentY": 1180,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Team",
+                "tag": "H2",
+                "documentY": 1180,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Size",
+                "tag": "H2",
+                "documentY": 1180,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "By Industry",
+                "tag": "H2",
+                "documentY": 1180,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Text\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "12px"
+              },
+              {
+                "text": "Unleash your teams and their agents",
+                "tag": "H1",
+                "documentY": 148,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "70px"
+              },
+              {
+                "text": "Transform how your teams work",
+                "tag": "H2",
+                "documentY": 1310.3125,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              },
+              {
+                "text": "The teamwork platform for the AI era",
+                "tag": "H3",
+                "documentY": 1654.3125,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "AI-native strategic portfolio management",
+                "tag": "H3",
+                "documentY": 1654.3125,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "Shatter the service quo",
+                "tag": "H3",
+                "documentY": 1654.3125,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "Deliver high quality software. Fast.",
+                "tag": "H3",
+                "documentY": 1654.3125,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "Better product decisions in the age of AI",
+                "tag": "H3",
+                "documentY": 1654.3125,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "32px"
+              },
+              {
+                "text": "Fueled by Atlassian’s latest AI innovations",
+                "tag": "H2",
+                "documentY": 2150.3125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"Charlie Display\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+                "fontSizeDeclaration": "40px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:44:24.681Z",
+          "visualInspection": "pending"
+        }
+      },
+      "observations": null,
+      "visualInspection": "pending",
+      "unverified": [
+        "移动端",
+        "登录业务",
+        "交互完整流程",
+        "精确动效时长",
+        "实际渲染字体"
+      ],
+      "navigation": {
+        "exitCode": 0,
+        "stdout": "\u001b[32m✓\u001b[0m \u001b[1mCollaboration software for software, IT and business teams | Atlassian\u001b[0m\n  \u001b[2mhttps://www.atlassian.com/\u001b[0m",
+        "stderr": ""
+      },
+      "loadWait": {
+        "exitCode": 0,
+        "stdout": "\u001b[32m✓\u001b[0m Done",
+        "stderr": ""
+      },
+      "requestedSectionScrollY": 1180,
+      "actualURL": "https://www.atlassian.com/",
+      "accessibility": {
+        "navigationSucceeded": true,
+        "screenshotCaptureSucceeded": true,
+        "visualReviewStatus": "pending"
+      }
+    },
+    {
+      "id": "asana-home",
+      "requestedURL": "https://asana.com/",
+      "casePath": "../cases/asana-home.md",
+      "navigationAttemptAt": "2026-09-20T03:44:25.049504+00:00",
+      "captures": {
+        "hero": {
+          "screenshotPath": "asana-home-hero.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/asana-home-hero.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:44:56.104Z",
+            "actualURL": "https://asana.com/",
+            "language": "en",
+            "title": "Work & Project Management for Human-Agent Teams • Asana",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 0,
+            "documentHeight": 8282,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "AI that works across your teams",
+                "tag": "H1",
+                "documentY": 207.765625,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "102px"
+              },
+              {
+                "text": "AI that works the way your team works",
+                "tag": "H2",
+                "documentY": 1115.421875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "54px"
+              },
+              {
+                "text": "AI TEAMMATES",
+                "tag": "H1",
+                "documentY": 2003.1875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "Your team just got bigger",
+                "tag": "H2",
+                "documentY": 2035.1875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "54px"
+              },
+              {
+                "text": "Deliver real productivity for every team",
+                "tag": "H2",
+                "documentY": 3449.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "54px"
+              },
+              {
+                "text": "Agentic Work Management",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Asana Service Management",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Asana Client Management",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Command by Asana",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "StackAI by Asana",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Agentic Work Management",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Asana Service Management",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Asana Client Management",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Command by Asana",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "StackAI by Asana",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Agentic Work Management",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Asana Service Management",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Asana Client Management",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Command by Asana",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "StackAI by Asana",
+                "tag": "H3",
+                "documentY": 3789.34375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Get started easily",
+                "tag": "H2",
+                "documentY": 5254.234375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "54px"
+              },
+              {
+                "text": "Recognized as a leader",
+                "tag": "H2",
+                "documentY": 6104.25,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "54px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:44:55.755Z",
+          "visualInspection": "pending"
+        },
+        "section": {
+          "screenshotPath": "asana-home-section.png",
+          "captureResult": {
+            "exitCode": 0,
+            "stdout": "\u001b[32m✓\u001b[0m Screenshot saved to \u001b[32m/Users/shengyan/Documents/Qoder/2026-09-18/dbc64ffe/design-with-taste/references/evidence/asana-home-section.png\u001b[0m",
+            "stderr": ""
+          },
+          "metadata": {
+            "accessedAt": "2026-09-20T03:44:56.952Z",
+            "actualURL": "https://asana.com/",
+            "language": "en",
+            "title": "Work & Project Management for Human-Agent Teams • Asana",
+            "cssViewport": {
+              "width": 1280,
+              "height": 720
+            },
+            "devicePixelRatio": 1,
+            "scrollY": 985,
+            "documentHeight": 8292,
+            "visibilityState": "visible",
+            "readyState": "complete",
+            "bodyFontDeclaration": {
+              "family": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+              "size": "16px"
+            },
+            "headings": [
+              {
+                "text": "AI that works across your teams",
+                "tag": "H1",
+                "documentY": 207.765625,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "102px"
+              },
+              {
+                "text": "AI that works the way your team works",
+                "tag": "H2",
+                "documentY": 1115.421875,
+                "inViewport": true,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "54px"
+              },
+              {
+                "text": "AI TEAMMATES",
+                "tag": "H1",
+                "documentY": 2013.421875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "16px"
+              },
+              {
+                "text": "Your team just got bigger",
+                "tag": "H2",
+                "documentY": 2045.421875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "54px"
+              },
+              {
+                "text": "Deliver real productivity for every team",
+                "tag": "H2",
+                "documentY": 3459.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "54px"
+              },
+              {
+                "text": "Agentic Work Management",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Asana Service Management",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Asana Client Management",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Command by Asana",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "StackAI by Asana",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Agentic Work Management",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Asana Service Management",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Asana Client Management",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Command by Asana",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "StackAI by Asana",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Agentic Work Management",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Asana Service Management",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Asana Client Management",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Command by Asana",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "StackAI by Asana",
+                "tag": "H3",
+                "documentY": 3799.578125,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "20px"
+              },
+              {
+                "text": "Get started easily",
+                "tag": "H2",
+                "documentY": 5264.46875,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "54px"
+              },
+              {
+                "text": "Recognized as a leader",
+                "tag": "H2",
+                "documentY": 6114.484375,
+                "inViewport": false,
+                "fontFamilyDeclaration": "\"TWK Lausanne\", \"Helvetica Neue\", Helvetica, sans-serif",
+                "fontSizeDeclaration": "54px"
+              }
+            ]
+          },
+          "beforeScreenshotAt": "2026-09-20T03:44:56.598Z",
+          "visualInspection": "pending"
+        }
+      },
+      "observations": null,
+      "visualInspection": "pending",
+      "unverified": [
+        "移动端",
+        "登录业务",
+        "交互完整流程",
+        "精确动效时长",
+        "实际渲染字体"
+      ],
+      "navigation": {
+        "exitCode": 1,
+        "stdout": "",
+        "stderr": "\u001b[31m✗\u001b[0m page.goto: Timeout 25000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://asana.com/\", waiting until \"load\"\u001b[22m"
+      },
+      "loadWait": {
+        "exitCode": 0,
+        "stdout": "\u001b[32m✓\u001b[0m Done",
+        "stderr": ""
+      },
+      "requestedSectionScrollY": 985,
+      "actualURL": "https://asana.com/",
+      "accessibility": {
+        "navigationSucceeded": false,
+        "screenshotCaptureSucceeded": true,
+        "visualReviewStatus": "pending"
+      }
+    }
+  ]
+}
